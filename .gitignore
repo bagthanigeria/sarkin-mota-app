@@ -1,0 +1,107 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+dist/
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.venv/
+env/
+venv/
+
+# Testing
+.nyc_output
+coverage
+*.lcov
+.mocha_tmp
+
+# iOS
+Pods/
+Podfile.lock
+*.xcworkspace
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+*.xcconfig
+
+# Android
+.gradle
+.gradle/
+build/
+*.apk
+*.aab
+*.jks
+*.keystore
+local.properties
+gradlew
+gradlew.bat
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.crt
+*.key
+*.pfx
+
+# Uploads
+uploads/
+temp/
+tmp/
